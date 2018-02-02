@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	color: #000;
+	background: #fff;
+	font: 14px/24px Georgia, serif;
+	padding: 60px 70px 100px 70px;
+}
+
+/*a {
+	color: #000;
+	text-decoration: none;
+}*/
+
+.logo {
+	text-align: center;
+}
+
+.wrapper {
+	width: 1063px;
+	margin: 0 auto;
+}
+
+.nav__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.nav__list li {
+	display: inline-block;
+	padding: 60px  80px;
+	text-transform: uppercase;
+	font: 14px "Times New Roman", serif;
+}
+
+.nav__list a {
+	color: #626262;
+	text-decoration: none;
+}
+
+.nav__list a:hover {
+	color: red;
+}
+
+.nav__list a:active {
+	color: green;
+}
+
+.photodiary {
+	font: 36px bold "Times New Roman";
+	text-transform: uppercase;
+	margin-top: 52px;
+	color: #c3bdb2;
+}
+
+h1 {
+	font: 36px bold "Times New Roman";
+	margin-top: 30px;
+	color: #626262;
+}
+
+h2 {
+	font: 30px bold Georgia;
+	color: #626262;
+	margin: 26px 0 38px 0;
+}
+
+h3 {
+	font: 24px bold Georgia;
+	color: #626262;
+	margin: 30px 0 35px 0;
+}
+
+h4 {
+	font
+}
+
+blockquote p {
+	text-align: center;
+}
+
+.comment {font: 36px bold "Times New Roman";
+	text-transform: uppercase;
+	margin: 28px 0 100px 0;
+	color: #c3bdb2;
+}
+
+.footer {
+	height: 99px;
+	background-color: #f0f0f0;
+	padding: 30px 10px 45px;
+}
+
+.footer-text {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.social {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social li {
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.social li a {
+	float: left;
+	display: block;
+	height: 15px;
+	background: url('../images/sprite.png') no-repeat ;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.social li .facebook {
+	width: 9px;	
+}
+
+.social li .facebook:hover {
+	background-position: 0 -17px;
+}
+
+.social li .twitter {
+	width: 18px;
+	background-position: -26px 0; 
+}
+
+.social li .twitter:hover {
+		background-position: -25px -17px;
+}
+
+.social li .instagram{
+	width: 18px;
+	background-position: -61px 0;
+}
+
+.social li .instagram:hover {
+	background-position: -60px -17px;
+}
