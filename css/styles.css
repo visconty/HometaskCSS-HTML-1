@@ -47,54 +47,62 @@ body {
 	color: green;
 }
 
-.photodiary {
-	font: 36px bold "Times New Roman";
+img {
+	margin-bottom: 50px;
+}
+
+.photodiary, .comment {
+	font: 14px Arial, sans-serif;
 	text-transform: uppercase;
-	margin-top: 52px;
+	margin-bottom: 30px;
 	color: #c3bdb2;
 }
 
+.photodiary {
+	margin-bottom: 30px; 
+}
+
 h1 {
-	font: 36px bold "Times New Roman";
-	margin-top: 30px;
+	font: bold 36px "Times New Roman", serif;
+	margin-bottom: 24px;
 	color: #626262;
 }
 
 h2 {
-	font: 30px bold Georgia;
+	font: bold 30px Georgia, serif;
 	color: #626262;
 	margin: 26px 0 38px 0;
 }
 
 h3 {
-	font: 24px bold Georgia;
+	font: bold 24px Georgia, serif;
 	color: #626262;
 	margin: 30px 0 35px 0;
 }
 
 h4 {
-	font
+	font: bold ;
+	color: #626262;
+
 }
 
 blockquote p {
 	text-align: center;
 }
 
-.comment {font: 36px bold "Times New Roman";
-	text-transform: uppercase;
-	margin: 28px 0 100px 0;
-	color: #c3bdb2;
+.comment {
+	margin-bottom: 100px;
 }
 
 .footer {
-	height: 99px;
+	height: 96px;
 	background-color: #f0f0f0;
 	padding: 30px 10px 45px;
 }
 
 .footer-text {
-	float: left;
-	margin: 0 10px 0 0;
+	float: right;
+	margin: 0 auto;
 }
 
 .container {
@@ -109,19 +117,19 @@ blockquote p {
 }
 
 .social {
-	float: left;
+	float: right;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
 .social li {
-	float: left;
+	float: right;
 	margin: 0 0 0 20px;
 }
 
 .social li a {
-	float: left;
+	float: right;
 	display: block;
 	height: 15px;
 	background: url('../images/sprite.png') no-repeat ;
@@ -143,7 +151,7 @@ blockquote p {
 }
 
 .social li .twitter:hover {
-		background-position: -25px -17px;
+	background-position: -25px -17px;
 }
 
 .social li .instagram{
